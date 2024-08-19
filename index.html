@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Travel Blog</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="d-flex px-5 align-items-center justify-content-between bg-dark text-light">
+        <div class="logo">
+            <img src="./Travel/logo.png" alt="logo">
+        </div>
+        <ul class="menu d-flex gap-4">
+            <li class="item">DESTINATIONS</li>
+            <li class="item">TRAVEL TIPS</li>
+            <li class="item">TRAVEL GEAR</li>
+            <li class="item">NOMADIC LIFE</li>
+            <li class="item"><i class="fa-solid fa-magnifying-glass" ></i></li>
+            <!-- <div class="dropdown">
+                <li>ALL TRAVEL BLOGS</li>
+                <li>AFRICA</li>
+                <li>ASIA</li>
+                <li>CARIBIAN</li>
+                <li>CENTRAL AMERICA</li>
+                <li>EUROPE</li>
+                <li>NORTH AMERICA</li>
+                <li>MIDDLE EAST</li>
+                <li>POLAR REGION</li>
+            </div> -->
+        </ul>
+    </header>
+
+    <!-- Banner -->
+    <section id="banner">
+        <div class="box1">
+            <h1 class="font-weight-bold ">EXPLORE YOUR WORLD</h1>
+            <p>Hi! I’m Matt — adventure travel photographer, professional blogger, and digital <br> nomad. Join me as I
+                share useful travel tips & experiences with you from around the <br> world!</p>
+            <div class="btns row  ">
+                <div class="btn text-light px-3 py-3   ">
+                    TRAVEL BLOG &rarr;
+                </div>
+                <div class="btn text-light px-3 py-3 ">
+                    ABOUT MATT &rarr;
+                </div>
+            </div>
+        </div>
+    </section>
+    <center class="my-2">
+        <img style="width: 100%;" src="./Travel/banner-logos.webp" alt="logos">
+    </center>
+    <section class="sub"> 
+        <div class="row p-5 d-flex ">
+            <div class="col-3">
+                <img src="./Travel/sub.webp" class="w-75" alt="" style="border-radius: 5px;">
+            </div>
+            <div class="col-9" style="padding-right: 80px;">
+                <h4>Subscribe to Expert Vagabond!</h4>
+                <p>Get special access to subscriber-only travel resources, photo tutorials, giveaways, blogging tips,
+                    live-chats, and more!</p>
+                <div class="input mt-5">
+                    <input type="text" placeholder="Your Email..." class="mx-1 col-10 ">
+                    <button class="col-2 ">SUBSCRIBE</button>
+                </div>
+                <div class="form-check m-2">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked" style="font-size: 15px;">
+                        I consent to receiving emails and personalized ads.
+                    </label>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Blog Posts -->
+    <div class="area px-5 text-center my-5" id="lbp">
+        <h1 class="fw-bold m-5">Latest Blog Posts</h1>
+        <div class="row px-4">
+            <div class="col-4">
+                <div class="card border-0">
+                    <img src="./Travel/lbp1.webp" alt="pic">
+                    <a href="#">
+                        <h3 class="my-5">Everything You Need To Know About <br>Renting A Car In Mexico</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card border-0">
+                    <img src="./Travel/lbp2.webp" alt="pic">
+                    <a href="#">
+                        <h3 class="my-5">Best Things To Do In Marrakesh,<br> Morocco</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card border-0">
+                    <img src="./Travel/lbp3.webp" alt="pic">
+                    <a href="#">
+                        <h3 class="my-5">Tips For Visiting The Colosseum In <br> Rome</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="btn p-3 fw-bold my-4">
+            READ MORE BLOG POSTS →
+        </div>
+    </div>
+    <!-- Reader Favorites -->
+    <div class="area area2 px-5 text-center" id="lbp">
+        <h1 class="fw-bold m-5">Reader Favorites</h1>
+        <div class="row px-4">
+            <div class="col-4">
+                <div class="card border-0">
+                    <img src="./Travel/rf1.webp" alt="pic">
+                    <a href="#">
+                        <h2>The Magic Sak Yant Tattoo</h2>
+                    </a>
+                    <p class="my-5 w-100">Over 40 people watched in silence as a <br>monk repeatedly penetrated my
+                        flesh.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card border-0">
+                    <img src="./Travel/rf2.webp" alt="pic">
+                    <a href="#">
+                        <h2>My 50 Best Travel Tips</h2>
+                    </a>
+                    <p class="my-5">Here are my best tips to help you save <br> money & become an expert traveler.
+                    </p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card border-0">
+                    <img src="./Travel/rf3.webp" alt="pic">
+                    <a href="#">
+                        <h2>Secrets Of The Ring Road</h2>
+                    </a>
+                    <p class="my-5">Check out my free 7-10 day Iceland itinerary & travel guide.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Adventure Travel -->
+    <div class="area area2 px-5 text-center" id="lbp">
+        <h1 class="fw-bold m-5">Adventure Travel</h1>
+        <div class="row px-4">
+            <div class="col-4">
+                <div class="card border-0">
+                    <img src="./Travel/at1.webp" alt="pic">
+                    <h2>Camping On A Volcano</h2>
+                    <a href="#">
+                        <p class="my-5 w-100">Guatemala's volcano Santiaguito erupts <br> with an explosion every few
+                            hours.</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card border-0">
+                    <img src="./Travel/at2.webp" alt="pic">
+                    <h2>Hiking In The Darien Gap
+                    </h2>
+                    <a href="#">
+                        <p class="my-5">Exploring a remote & dangerous jungle <br> region on the edge of Panama.
+
+
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card border-0">
+                    <img src="./Travel/at3.webp" alt="pic">
+                    <h2>Trekking The Arctic Circle</h2>
+                    <a href="#">
+                        <p class="mt-5">Walking over 100 miles alone for 10 days in <br> remote Greenland.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Travel Photography -->
+    <div class="area area2 px-5 text-center" id="lbp">
+        <h1 class="fw-bold m-5">Travel Photography</h1>
+        <div class="row px-4">
+            <div class="col-4">
+                <div class="card border-0">
+                    <img src="./Travel/tp1.webp" alt="pic">
+                    <h2>20 Travel Photography Tips</h2>
+                    <a href="#">
+                        <p class="my-5 w-100">How to take better photos of your travel <br>adventures around the world.
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card border-0">
+                    <img src="./Travel/tp2.webp" alt="pic">
+                    <h2>Best Travel Cameras
+                    </h2>
+                    <a href="#">
+                        <p class="my-5">Looking for a camera upgrade? Here are <br> my top travel camera picks.
+
+
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card border-0">
+                    <img src="./Travel/tp3.webp" alt="pic">
+                    <h2>Shooting Northern Lights</h2>
+                    <a href="#">
+                        <p class="mt-5">Learn settings & techniques for capturing <br> the aurora borealis.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Digital Nomad Lifestyle -->
+    <div class="area area2 px-5 text-center" id="lbp">
+        <h1 class="fw-bold m-5">Digital Nomad Lifestyle</h1>
+        <div class="row px-4">
+            <div class="col-4">
+                <div class="card border-0">
+                    <img src="./Travel/dnl1.webp" alt="pic">
+                    <h2>Becoming A Digital Nomad</h2>
+                    <a href="#">
+                        <p class="my-5 w-100">How to work remotely as a digital nomad <br> traveling the world.</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card border-0">
+                    <img src="./Travel/dnl2.webp" alt="pic">
+                    <h2>40 Best Travel Jobs
+                    </h2>
+                    <a href="#">
+                        <p class="my-5">List of travel friendly jobs that allow you to <br> work from abroad.
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card border-0">
+                    <img src="./Travel/dnl3.webp" alt="pic">
+                    <h2>How I Get Paid To Travel</h2>
+                    <a href="#">
+                        <p class="mt-5">The many different ways I make money <br> while traveling.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Youtube section -->
+    <section class=" yt text-center my-5 ">
+        <h2 class="fw-bold ">Travel Videos From Around The World</h2>
+        <p>Follow My Adventures On YouTube!</p>
+        <div class="row p-5">
+            <div class="col-6 text-center d-flex flex-column justify-content-center">
+                <h1 class="fw-bold">Backpacking Afghanistan</h1>
+                <p>One of my most memorable travel experiences so far was hiking over 100 <br> miles through the
+                    mountains of Afghanistan with <br> locals. Check out the video, and don’t forget to <a href="#"> subscribe to my
+                    <br> YouTube channel </a> for more adventures!</p>
+                    <button class="mx-5 px-4 py-3">READ THE STORY HERE &rarr;</button>
+            </div>
+            <div class="col-6 px-5">
+                <img class=" w-100" src="./Travel/Yt.webp" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- form -->
+    <!-- <section class="sub">
+        <div class="row p-5 d-flex ">
+            <div class="col-3">
+                <img src="./Travel/sub.webp" class="w-75" alt="" style="border-radius: 5px;">
+            </div>
+            <div class="col-9" style="padding-right: 80px;">
+                <h4>Subscribe to Expert Vagabond!</h4>
+                <p>Get special access to subscriber-only travel resources, photo tutorials, giveaways, blogging tips,
+                    live-chats, and more!</p>
+                <div class="input mt-5">
+                    <input type="text" placeholder="Your Email..." class="mx-1 col-10 ">
+                    <button class="bg-info col-2 ">SUBSCRIBE</button>
+                </div>
+                <div class="form-check m-2">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked" style="font-size: 15px;">
+                        I consent to receiving emails and personalized ads.
+                    </label>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- recommended -->
+     <section class="p-4">
+        <h2 class="my-5"><b>Recommended</b></h2>
+        <div class="row">
+            <div class="col-4">
+                <img class="w-100" src="./Travel/r1.jpg" alt="">
+                <h4 class="mt-3">My 50 Best Travel Tips After 10 Years Traveling The World</h4>
+            </div>
+            <div class="col-4">
+                <img class="w-100" src="./Travel/r2.jpg" alt="">
+                <h4>Tips For Visiting The Colosseum In Rome</h4>
+            </div>
+            <div class="col-4">
+                <img class="w-100" src="./Travel/r3.jpg" alt="">
+                <h4>Best Things To Do In Marrakesh, Morocco</h4>
+            </div>
+        </div>
+     </section>
+    <!-- Footer -->
+    <footer>
+        <div class="row py-5 d-flex justify-content-between text-center">
+            <div class="col-4">
+                <h2>Travel Resources</h2>
+                <p><a href="#">How To Travel The World</a></p>
+                <p><a href="#"> Picking A Travel Backpack</a></p>
+                <p><a href="#">How To Save Money For Travel</a></p>
+                <p><a href="#"> Top Travel Safety Tips</a></p>
+            </div>
+            <div class="col-3">
+                <h2 style="text-align: center;">Social Media</h2>
+                <div class="icons px-5 mx-4">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+            <div class="col-4">
+                <h2>Travel Photography</h2>
+                <p><a href="#">How To Improve Your Photos</a></p>
+                <p><a href="#">Recommended Travel Cameras</a></p>
+                <p><a href="#">Best Online Photography Classes</a></p>
+                <p><a href="#">Travel Photography Prints</a></p>
+            </div>
+        </div>
+        <p class="text-center "><span class="opacity-50">© 2024 Expert Vagabond | Adventure Travel & Photography Blog</span> <a href="#">Travel Blog</a> |<a href="#"> About </a>|<a href="#"> Policy Page</a> |<a href="#"> Contact</a></p>
+    </footer>
+
+</body>
+
+</html>
