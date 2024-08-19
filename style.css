@@ -53,12 +53,12 @@ li:hover{
     justify-content: space-between;
 }
 
-.btns .btn {
+.btns .btn1 {
     background: var(--org-color);
     width: 48%;
     font-weight: bold;
 }
-.btns .btn:hover{
+.btns .btn1:hover{
     /* background: var(--org-color); */
     background: rgb(36, 35, 35);
 }
@@ -154,9 +154,9 @@ li:hover{
 
 /* Footer */
 footer{
-    /* background: var(--blk-color); */
     background: black;
     color: white;
+    height: 370px;
     
 }
 
@@ -212,4 +212,34 @@ footer a:hover{
     color: white;
     background: #000;
     border: 2px solid #000;
+}
+section .btn{
+    background-color: #FF8800;
+    margin-left: 500px;
+    color: white;
+}
+section .btn:hover{
+    background-color: black;
+    color: white;
+}
+.yt button{
+    margin-left: 200px;
+}
+.col-4 h4{
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+section .row .col-4:hover{
+   background-color: #ececec;
+   border-radius: 12px;
+   transition: 0.3s;
+   
+
+}
+.a1{
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 12px;
+  text-align: center;
 }
